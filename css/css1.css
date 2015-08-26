@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+}
+body{
+	background-attachment: fixed;
+
+	/*background-image: url("bg12.jpg");*/
+	animation-name: bgnd;
+    animation-duration: 32s;
+    animation-timing-function: alternate;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+}
+background-image{opacity: 0.2;}
+
+@-webkit-keyframes bgnd{
+	0%{background-image: url("bg12.jpg");}
+	25%{background-image: url("bg2.jpg");}
+	50%{background-image: url("bg12.jpg");}
+	75%{background-image: url("bg2.jpg");}
+	100%{background-image: url("bg12.jpg");}
+}
+
+div.container{
+	width: 100%;
+	height: 100%;
+}
+
+#head{
+	margin: 0;	
+	width: 100%;
+	height: 15%;
+}
+
+#img1{
+	position: fixed;
+	height: 180px;
+	width: 300px;
+	margin-left: 35%;
+	margin-bottom: 2px;
+	-webkit-transition: 0.4;
+}
+#img1:hover{
+	position: fixed;	
+	margin-left: 35%;
+	margin-bottom: 2px;
+	height: 240px;
+	width: 400px;
+
+}
+
+#div1{
+	position: absolute;
+	float: left;
+    max-width: 70%;
+    margin-top: 15%;
+    padding: 1em;
+   
+}
+
+
+#div2{	
+	position: fixed;
+	max-width: 30%;
+	margin-left: 76%;
+	margin-top: 10%;
+    padding: 1em;
+}
+
+
+table ,tr , td
+{	text-align: center;
+	border-radius: 40px;
+	/*max-width: 720px;*/
+}
+
+#t1{
+	border-radius: 10px;
+	padding: 10px;
+	border-spacing: 10px;
+
+}
+#t2{
+	text-align: center;
+	border-radius: 5px;
+	opacity: 0.9;
+	padding: 4px;
+	color: #117711;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 1.2em;
+	font-weight: 200;
+}
+
+.button:hover{
+	height: 110%;
+	width: 28%;
+	color: #ffffff;
+	background-color: #442266;
+	box-shadow: 1px 1px #554477 ;
+}
+.signin1{
+	color: #114477;
+	font-size: 1.4em;
+	font-variant: small-caps;
+
+}
+
+
+
+
+
+img.tvshows:hover{
+	border: 2px solid #000000;
+	opacity: 1;
+}
+img.tvshows{
+	opacity: 0.98;
+	height: 220px;
+	width: 160px;
+	border-radius: 40px;
+	/*-webkit-transition: 0.05s linear;*/
+}
+/*img{
+	max-width: 300px;
+	max-height: 270px;
+	border-radius: 40px;
+	-webkit-transition: 1s;
+}
+*/
