@@ -10,19 +10,17 @@
     float: left;
     padding: 15px;
 }
-html {
+html{
     font-family: "Lucida Sans", sans-serif;
 }
 body{
     background-attachment: fixed;
+    background-size: contain;
     animation-name: bgnd;
-    animation-duration: 32s;
-    animation-timing-function: alternate;
+    animation-duration: 16s;
+    animation-timing-function: linear;
     animation-iteration-count: infinite;
-    animation-direction: reverse;
-}
-background-image{
-    opacity: 0.2;
+    animation-direction: alternate;
 }
 
 @-webkit-keyframes bgnd{
@@ -32,10 +30,56 @@ background-image{
     75%{background-image: url("bg2.jpg");}
     100%{background-image: url("bg12.jpg");}
 }
+
 .header {
-    background-color: #9933cc;
+    text-align: center;
+    /*background-color: #9933cc;*/
     color: #ffffff;
     padding: 15px;
+}
+img{
+    max-width: 80%;
+    height: auto;
+}
+
+.tvshows{
+        float: left;
+        padding: 12px;
+        border-radius: 40px;
+        opacity: 0.98;
+        box-shadow: 1px 1px 1px #000000;
+}
+.tvshows:hover{
+    border: 1px solid #000000;
+    opacity: 1;
+}
+#t2{
+    float: right;
+    text-align: center;
+    border-radius: 5px;
+    opacity: 0.9;
+    padding: 4px;
+    color: #117711;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 1.2em;
+    font-weight: 200;
+}
+.signin1{
+    color: #114477;
+    font-size: 1.4em;
+    font-variant: small-caps;
+
+}
+.button{
+    background-color: rgba(100,250,50,0.8);
+    color: #000000;
+}
+.button:hover{
+    height: 110%;
+    width: 28%;
+    color: rgba(100,250,50,0.8);
+    background-color: #332211;
+    box-shadow: 1px 1px #554477 ;
 }
 .menu ul {
     list-style-type: none;
@@ -101,3 +145,5 @@ background-image{
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
 }
+
+
