@@ -18,34 +18,10 @@
 html{
     font-family: "Lucida Sans", sans-serif;
 }
-<<<<<<< HEAD
-body{
-<<<<<<< HEAD
-    background-attachment: fixed;
-    background-size: contain;
-    animation-name: bgnd;
-    animation-duration: 16s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-}
-
-@-webkit-keyframes bgnd{
-    0%{background-image: url("bg12.jpg");}
-    25%{background-image: url("bg2.jpg");}
-    50%{background-image: url("bg12.jpg");}
-    75%{background-image: url("bg2.jpg");}
-    100%{background-image: url("bg12.jpg");}
-=======
-    background-image: url("bg12.jpg");
-    
->>>>>>> origin/gh-pages
-=======
 
 body{
     background-image: url("bg1234.jpg");
     
->>>>>>> parent of 9536bdc... Revert "Update-1"
 }
 .header {
     text-align: center;
@@ -109,4 +85,5 @@ img.tvshows:hover{
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
 }
+
 
