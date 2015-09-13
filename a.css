@@ -21,6 +21,7 @@ html{
 
 body{
     background-image: url("bg1234.jpg");
+    background-attachment: fixed;
     
 }
 .header {
@@ -45,11 +46,14 @@ img.tvshows:hover{
     
 }
 
+
 .button:hover{
     color: #000000;
     background-color: #7CFC00
     
 }
+
+
 
 /* For mobile phones: */
 [class*="col-"] {
